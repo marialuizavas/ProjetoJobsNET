@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formulário de candidatura</title>
+
+</head>
+    <body>
+
+        <div>
+            <h1>Formulário de Candidatura</h1>
+            <p>Dados Pessoais:</p>
+            <br>
+        </div>
+
+        <form>
+            <fieldset>
+                <div>
+                    <label>Nome</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div>
+                    <label>Sobrenome</label>
+                    <input type="text" name="sobrenome" id="sobrenome">   
+                </div>
+                <p>Sexo:</p>
+                    <input type="radio" id="mulher cisgênero" name="gênero" value="mulher cisgênero
+                    " required>
+                    <label for="mulher cisgênero">mulher cisgênero</label>
+                    <br>
+                    <input type="radio" id="homem cisgênero" name="gênero" value="homem cisgênero" required>
+                    <label for="homem cisgênero">homem cisgênero</label>
+                    <br>
+                    <input type="radio" id="mulher transgênero" name="gênero" value="mulher transgênero" required>
+                    <label for="mulher transgênero">mulher transgênero</label>
+                    <br>
+                    <input type="radio" id="homem transgênero" name="gênero" value="homem transgênero" required>
+                    <label for="homem transgênero">homem transgênero</label>
+                    <br>
+                    <input type="radio" id="não-binário" name="gênero" value="não-binário" required>
+                    <label for="não-binário">não-binário</label>
+                    <br>
+                    <input type="radio" id="outro" name="gênero" value="outro"required>
+                    <label for="outro">outro</label>
+
+                    <div>
+                        <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+                        <input type="date" name="data_nascimento" id="data_nascimento">   
+                    </div>
+
+                    <div>
+                        <label for="telefone">Telefone (DDD)</label>
+                        <input type="telefone" name="telefone" id="telefone">   
+                    </div>
+
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email">  
+                    </div>
+
+                    <div>
+                        <label for="cargo_pretendido">Cargo Pretendido</label>
+                        <input type="text" name="cargo_pretendido" id="cargo_pretendido">   
+                    </div>
+                    <br>
+
+                    <p><b>Documentos:</b></p>
+                    <div>
+                        <label for="identidade">Identidade nº:</label>
+                        <input type="text" name="identidade" id="identidade">   
+                    </div>
+
+                    <div>
+                        <label for="orgao_expedidor">Órgão Expedidor:</label>
+                        <input type="text" name="orgao_expedidor" id="orgao_expedidor">   
+                    </div>
+                    <div>
+                        <label for="cpf">CPF</label>
+                        <input type="text" name="cpf" id="cpf">   
+                    </div>
+
+                    <p><b>Endereço:</b></p>
+                    <br>
+                    <div>
+                        <label for="cep">CEP</label>
+                        <input type="text" name="cep" id="cep">   
+                    </div>
+
+                    <div>
+                        <label for="rua">Rua:</label>
+                        <input type="text" name="rua" id="rua">   
+                    </div>
+
+                    <div>
+                        <label for="bairro">Bairro</label>
+                        <input type="text" name="bairro" id="bairro">
+                    </div>
+
+                    <div>
+                        <label for="cidade">Cidade</label>
+                        <input type="text" name="cidade" id="cidade">
+                    </div>
+
+                    <div>
+                        <label for="estado">Estado</label>
+                        <input type="text" name="estado" id="estado">
+                    </div>
+                    <br>
+
+                    <label>Possuí habilitação?</label>
+                    <br>
+                    <input type="radio" nome="não" value="não">Não
+                    <br>
+                    <label>
+                        <input type="radio" nome="sim" value="não">Sim
+                    </label>
+                    <br>
+
+                    <label>Se possuir habilitação: Qual o tipo de habilitação?</label>
+                    <select id=tipo_de_habilitacao>
+                        <option selected disabled value="">Selecione</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>AB</option>
+                        <option>outra</option>
+                    </select>
+                    <br>
+
+                    <label>Possuí veículo próprio?</label>
+                    <br>
+                    <input type="radio" nome="não" value="não">Não
+                    <br>
+                    <label>
+                        <input type="radio" nome="sim" value="sim">Sim
+                    </label>
+
+
+            </fieldset>
+        </form>
+    
+    </body>
+</html>
